@@ -15,18 +15,6 @@ Setup requirements
 python3 -m pip install -r requirements.txt
 ```
 
-## Download and prepare dataset
-To form a dataset, we use the proposed site. Parse the data and create a DataFrame with the fields: response, context
-```
-python prepare_dataset.py
-```
-
-## Train and evaluate model
-We will train and evaluate the model
-```
-python train.py
-```
-
 ## Run chatting
 
 ### Loading the trained model
@@ -41,4 +29,16 @@ rm archive.zip
 Script to start the chat. To exit the chat, you need to enter "exit"
 ```
 python run.py
+```
+
+## Download and prepare dataset
+To form a dataset, we use the proposed site. Parse the data and create a DataFrame with the fields: response, context
+```
+python prepare_dataset.py
+```
+
+## Train and evaluate model
+We will train and evaluate the model
+```
+python train.py
 ```
