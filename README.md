@@ -2,7 +2,7 @@
 
 ## Overview selected method
 The transformers approach was chosen to implement the chatbot. 
-To implement the sequence to sequence task (our chat bot), a pre-trained DialoGPT-small model was selected.
+To implement the test task (our chat bot), a pre-trained DialoGPT-small model was selected.
 
 ## Need requirements
 Create local environment
@@ -30,7 +30,7 @@ python train.py
 ## Run chatting
 
 ### Loading the trained model
-Check url "" and download this archive in output-small folder in project
+Check url "https://drive.google.com/file/d/1ahlvC3uvsNYyLWoVuRFlCRQS2S5ASa4r/view?usp=sharing" and download this archive in output-small folder in project
 
 Next command with archive
 ```shell

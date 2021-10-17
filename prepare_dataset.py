@@ -1,5 +1,5 @@
 from tqdm import tqdm
-import urllib
+import urllib.request
 import pandas as pd
 from bs4 import BeautifulSoup
 

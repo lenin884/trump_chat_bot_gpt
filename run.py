@@ -7,6 +7,7 @@ from transformers import (
 
 tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-small', cache_dir="cached")
 model = AutoModelWithLMHead.from_pretrained('output-small')
+step = 0
 
 # Let's chat for 5 lines
 while True:
@@ -30,6 +31,7 @@ while True:
         top_p=0.7,
         temperature=0.8
     )
+    step += 1
 
     # pretty print last output tokens from bot
     print("TrumpBot: {}".format(
